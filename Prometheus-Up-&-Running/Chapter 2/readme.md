@@ -18,3 +18,6 @@ Alert Manager Before Alert
 
 Alert Manager After Alert
 ![Alt text](image-6.png)
+
+Using Codespaces as my enviroment
+![Alt text](image-7.png)
