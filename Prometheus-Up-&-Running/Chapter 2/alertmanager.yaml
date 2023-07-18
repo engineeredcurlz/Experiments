@@ -1,0 +1,19 @@
+global:
+  smtp_smarthost: 'localhost:25'
+  smtp_from: 'djorsling@microsoft.com'
+route:
+  group_by: ['alertname']
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 1h
+  receiver: 'example-email'
+receivers:
+  - name: 'example-email'
+    email_configs:
+      - to: 'djorsling@microsoft.com'
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'dev', 'instance']
