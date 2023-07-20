@@ -8,6 +8,6 @@ class MyHandler(http.server.BaseHTTPRequestHandler):
         self.wfile.write(b"Hello World")
 
 if __name__ == "__main__":
-    start_http_server(8000) // Starts up an HTTP server on port 8000 to serve metrics to Prometheus
+    start_http_server(8000) # Starts up an HTTP server on port 8000 to serve metrics to Prometheus
     server = http.server.HTTPServer(('localhost', 8001), MyHandler)
     server.serve_forever()
