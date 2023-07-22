@@ -26,4 +26,4 @@ if __name__ == "__main__":
     server.serve_forever()
 
 
-# 1 Counters can be used to track errors and unexpected situations. Knowing how errors are trending over time is good for debugging. Knowing the popular features or code paths of an application helps to optimize and allocate dev efforts.
+#  1 Counters can be used to track errors and unexpected situations. Knowing how errors are trending over time is good for debugging. Knowing the popular features or code paths of an application helps to optimize and allocate dev efforts.
