@@ -1,3 +1,3 @@
 cars = ["Ford", "Chevrolet", "Toyota", "Honda"]
-cars.sort()
+cars.sort(reverse=True)
 print(cars)
