@@ -1,0 +1,1 @@
+# Python script to simulate readiness probe failure
