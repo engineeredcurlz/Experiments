@@ -1,6 +1,6 @@
 ## Kubernetes Repo
 
-Welcome to my study repository. A collection if scripts paired with k8's tasks. This repo supports my jounrey to earn CNCF and PI certifications. 
+Welcome to my study repository. A collection of scripts paired with k8's tasks. This repo supports my journey to earn CNCF and PI certifications. 
 
 ## Repo Structure
 
